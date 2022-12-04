@@ -13,7 +13,7 @@ switch(select){
         break;
         case '2':
          var delUser = prompt("Enter ID of the user you wish to remove: ");
-         userList.splice(delUser,1)
+         delete userList[delUser]
         console.log(userList);
         break;
     case '3': 
